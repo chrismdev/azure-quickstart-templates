@@ -109,10 +109,10 @@
     "nicName": "[concat(parameters('vmssName'), 'nic')]",
     "ipConfigName": "[concat(parameters('vmssName'), 'ipconfig')]",
     "osType": {
-      "publisher": "Canonical",
-      "offer": "UbuntuServer",
-      "sku": "20_04-lts-gen2",
-      "version": "latest"
+    "offer": "0001-com-ubuntu-server-jammy",
+    "publisher": "Canonical",
+    "sku": "22_04-lts-gen2",
+    "version": "latest"
     },
     "imageReference": "[variables('osType')]",
     "linuxConfiguration": {
